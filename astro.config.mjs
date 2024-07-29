@@ -8,7 +8,7 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: 'undb Docs',
+      title: 'undb documentation',
       logo: {
         src: '/src/assets/logo.svg',
       },
