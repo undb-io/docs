@@ -16,6 +16,7 @@ export default defineConfig({
         { label: 'Base', autogenerate: { directory: 'base' } },
         { label: 'Table', autogenerate: { directory: 'table' } },
         { label: 'Field', autogenerate: { directory: 'field' } },
+        { label: 'Field Type', autogenerate: { directory: 'field-types' } },
       ],
     }),
   ],
