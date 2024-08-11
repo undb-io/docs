@@ -14,6 +14,8 @@ export default defineConfig({
         { label: 'Introduction', slug: 'index' },
         { label: 'Space', autogenerate: { directory: 'space' } },
         { label: 'Base', autogenerate: { directory: 'base' } },
+        { label: 'Table', autogenerate: { directory: 'table' } },
+        { label: 'Field', autogenerate: { directory: 'field' } },
       ],
     }),
   ],

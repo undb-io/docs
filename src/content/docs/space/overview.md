@@ -1,5 +1,5 @@
 ---
-title: Space Overview
+title: Space overview
 description: what is a space
 sidebar:
   order: 1
