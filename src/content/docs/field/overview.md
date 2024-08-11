@@ -30,6 +30,7 @@ In **undb**, a **Field** is the equivalent of a column in a database. Fields def
 
 Fields in **undb** can have constraints to ensure data integrity and consistency:
 
+- **Unique Name**: Field names inside a table is unique.
 - **Required**: A field can be marked as required, meaning that it must have a value for each record in the Table.
 - **Maximum and Minimum Values**: For fields like numbers or dates, you can set maximum and minimum values to restrict the range of acceptable data.
 - **Other Constraints**: Depending on the field type, other constraints like length (for text fields) or format (for email fields) can be applied.
