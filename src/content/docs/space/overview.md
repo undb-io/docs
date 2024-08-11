@@ -1,6 +1,8 @@
 ---
-title: 'Introduction'
+title: Space Overview
 description: what is a space
+sidebar:
+  order: 1
 ---
 
 ## What is a Space?

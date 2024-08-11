@@ -1,5 +1,7 @@
 ---
 title: Create base
+sidebar:
+  order: 2
 ---
 
 # Creating a New Base

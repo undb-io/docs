@@ -1,5 +1,7 @@
 ---
 title: Manage space
+sidebar:
+  order: 3
 ---
 
 # Managing a Space

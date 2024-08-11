@@ -5,7 +5,8 @@ import starlight from '@astrojs/starlight'
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'Undb',
+      title: 'undb',
+      favicon: '/favicon.ico',
       social: {
         github: 'https://github.com/undb-io/undb',
       },

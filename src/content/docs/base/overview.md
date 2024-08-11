@@ -1,5 +1,7 @@
 ---
 title: Base overview
+sidebar:
+  order: 1
 ---
 
 # Understanding Base

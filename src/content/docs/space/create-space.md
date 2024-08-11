@@ -1,5 +1,7 @@
 ---
 title: Create a space
+sidebar:
+  order: 2
 ---
 
 In **undb**, a Space is the core organizational unit for your data and projects. When you create a new account, a default Space is automatically generated for you, but you can create additional Spaces as needed for different projects or organizational needs.

@@ -1,5 +1,7 @@
 ---
 title: Manage space members
+sidebar:
+  order: 4
 ---
 
 # Managing Space Members
