@@ -4,9 +4,7 @@ sidebar:
   order: 5
 ---
 
-# Roles and Permissions Overview
-
-This document provides an overview of the roles and their associated permissions in **undb**. Each section is categorized by the area of functionality, such as **Space**, **Base**, **Table**, **Field**, **Record**, **Sharing**, and **Authorization**.
+This document provides an overview of the roles and their associated permissions in **undb**. Each section is categorized by the area of functionality, such as **Space**, **Base**, **Table**, **Field**, **Record**, **Webhook**, **Sharing**, and **Authorization**.
 
 ## Space Permissions
 
@@ -55,6 +53,15 @@ This document provides an overview of the roles and their associated permissions
 | Read record details   |  ✅   |  ✅   |   ✅   |   ✅   |
 | Update record details |  ✅   |  ✅   |   ✅   |   ❌   |
 | Download record data  |  ✅   |  ✅   |   ✅   |   ❌   |
+
+## Webhook Permissions
+
+| Action                  | Owner | Admin | Editor | Viewer |
+| ----------------------- | :---: | :---: | :----: | :----: |
+| Create a webhook        |  ✅   |  ✅   |   ✅   |   ❌   |
+| Update webhook settings |  ✅   |  ✅   |   ✅   |   ❌   |
+| Delete a webhook        |  ✅   |  ✅   |   ❌   |   ❌   |
+| List all webhooks       |  ✅   |  ✅   |   ✅   |   ✅   |
 
 ## Sharing Permissions
 
