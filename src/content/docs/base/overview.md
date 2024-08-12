@@ -4,8 +4,6 @@ sidebar:
   order: 1
 ---
 
-# Understanding Base
-
 In **undb**, a **Base** is a collection of tables that together form a structured dataset within a Space. Bases help you organize related data, making it easier to manage and access information across your projects.
 
 ## Key Features of Base
