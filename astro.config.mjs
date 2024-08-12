@@ -12,6 +12,8 @@ export default defineConfig({
       customCss: ['./src/tailwind.css'],
       social: {
         github: 'https://github.com/undb-io/undb',
+        email: 'mailto:hi@undb.io',
+        discord: 'https://discord.gg/U9bdhB3c',
       },
       sidebar: [
         {
