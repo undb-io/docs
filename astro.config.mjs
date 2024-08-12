@@ -10,6 +10,9 @@ export default defineConfig({
       title: 'undb',
       favicon: '/favicon.ico',
       customCss: ['./src/tailwind.css'],
+      editLink: {
+        baseUrl: 'https://github.com/undb-io/docs/edit/main/',
+      },
       social: {
         github: 'https://github.com/undb-io/undb',
         email: 'mailto:hi@undb.io',
