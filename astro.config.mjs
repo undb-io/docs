@@ -72,6 +72,12 @@ export default defineConfig({
             directory: 'webhook',
           },
         },
+        {
+          label: 'Deployment',
+          autogenerate: {
+            directory: 'deployment',
+          },
+        },
       ],
     }),
     tailwind({
