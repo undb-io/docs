@@ -55,6 +55,18 @@ export default defineConfig({
           },
         },
         {
+          label: 'Form',
+          autogenerate: {
+            directory: 'form',
+          },
+        },
+        {
+          label: 'Developer',
+          autogenerate: {
+            directory: 'developer',
+          },
+        },
+        {
           label: 'Webhook',
           autogenerate: {
             directory: 'webhook',
