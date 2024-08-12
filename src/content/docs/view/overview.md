@@ -1,5 +1,7 @@
 ---
 title: View overview
+sidebar:
+  order: 1
 ---
 
 # View Overview

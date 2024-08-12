@@ -1,8 +1,8 @@
 ---
 title: Field actions
+sidebar:
+  order: 4
 ---
-
-# Field Actions
 
 In **undb**, field actions provide you with various options to manage and manipulate fields within your tables. These actions include updating field configurations, duplicating fields, and deleting fields, allowing for flexible and efficient data management.
 
@@ -22,6 +22,10 @@ In **undb**, field actions provide you with various options to manage and manipu
 
 - **Remove Unneeded Fields**: If a field is no longer required, you can delete it from the table. This action removes the field and all associated data from your table, helping to keep your data structure clean and relevant.
 - **Caution with Deletion**: Deleting a field is irreversible, so it’s important to ensure that the field and its data are no longer needed before proceeding with this action.
+
+<div class="p-4 mb-4 text-sm text-red-800 rounded-lg bg-red-50 dark:bg-gray-800 dark:text-red-400" role="alert">
+  <span class="font-medium">Danger alert!</span> Delete field action cannot be revert now.
+</div>
 
 ## Use Cases
 

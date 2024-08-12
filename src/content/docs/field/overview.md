@@ -4,8 +4,6 @@ sidebar:
   order: 1
 ---
 
-# Understanding Fields
-
 In **undb**, a **Field** is the equivalent of a column in a database. Fields define the structure of your data within a Table, specifying the type of data that can be stored and the rules that govern it. Each Table consists of both system fields and custom fields, allowing for a flexible and structured approach to data management.
 
 ## Types of Fields

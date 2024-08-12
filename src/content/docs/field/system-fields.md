@@ -4,8 +4,6 @@ sidebar:
   order: 2
 ---
 
-# Understanding System Fields
-
 In **undb**, system fields are automatically generated when you create a new Table. These fields are essential for tracking and managing data within your Tables, providing metadata that helps ensure the integrity and traceability of your data.
 
 ## Key Characteristics of System Fields
