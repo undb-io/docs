@@ -54,6 +54,12 @@ export default defineConfig({
           },
         },
         {
+          label: 'Record',
+          autogenerate: {
+            directory: 'record',
+          },
+        },
+        {
           label: 'View',
           autogenerate: {
             directory: 'view',
