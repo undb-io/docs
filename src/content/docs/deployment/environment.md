@@ -4,11 +4,9 @@ sidebar:
   order: 2
 ---
 
-**undb** can be used out of the box without the need to configure any environment variables. However, for advanced customization and integration, you can use environment variables to control various aspects of the system, including logging, database connections, email settings, authentication providers, and storage configurations. Below are tables that detail each environment variable, its purpose, and possible values.
+# Environment Variables Overview
 
-<div class="p-4 mb-4 text-sm text-green-800 rounded-lg bg-green-50 dark:bg-gray-800 dark:text-green-400" role="alert">
-	You can run undb without any environment variable.
-</div>
+**undb** is designed to be used out of the box without the need for any environment variable configuration. However, for advanced customization and integration, you can use environment variables to control various aspects of the system, including logging, database connections, email settings, authentication providers, and storage configurations. Below are tables that detail each environment variable, its purpose, and possible values.
 
 ## Logging Configuration
 
@@ -42,15 +40,19 @@ sidebar:
 
 **Email configuration** controls how **undb** sends emails, including verification emails and notifications.
 
-| Variable                 | Description                                             | Example Value                                     |
-| ------------------------ | ------------------------------------------------------- | ------------------------------------------------- |
-| `UNDB_VERIFY_EMAIL`      | Enable or disable email verification for user sign-ups. | `true`, `false`                                   |
-| `UNDB_MAIL_HOST`         | The SMTP server host for sending emails.                | `localhost`, `email-smtp.us-west-1.amazonaws.com` |
-| `UNDB_MAIL_PORT`         | The port for the SMTP server.                           | `1025`, `465`                                     |
-| `UNDB_MAIL_SECURE`       | Enables secure connection (SSL/TLS) for SMTP.           | `true`, `false`                                   |
-| `UNDB_MAIL_USER`         | SMTP server username for authentication.                | N/A                                               |
-| `UNDB_MAIL_PASS`         | SMTP server password for authentication.                | N/A                                               |
-| `UNDB_MAIL_DEFAULT_FROM` | The default email address to use as the sender.         | `hi@undb.io`                                      |
+| Variable                 | Description                                                           | Possible Values         | Example Value                                     |
+| ------------------------ | --------------------------------------------------------------------- | ----------------------- | ------------------------------------------------- |
+| `UNDB_MAIL_PROVIDER`     | Specifies the email provider used for sending emails.                 | `nodemailer`, `mailgun` | `mailgun`                                         |
+| `UNDB_MAIL_HOST`         | The SMTP server host for sending emails (if using `nodemailer`).      | N/A                     | `localhost`, `email-smtp.us-west-1.amazonaws.com` |
+| `UNDB_MAIL_PORT`         | The port for the SMTP server (if using `nodemailer`).                 | N/A                     | `1025`, `465`                                     |
+| `UNDB_MAIL_SECURE`       | Enables secure connection (SSL/TLS) for SMTP (if using `nodemailer`). | `true`, `false`         | `false`                                           |
+| `UNDB_MAIL_USER`         | SMTP server username for authentication (if using `nodemailer`).      | N/A                     | `your-smtp-username`                              |
+| `UNDB_MAIL_PASS`         | SMTP server password for authentication (if using `nodemailer`).      | N/A                     | `your-smtp-password`                              |
+| `UNDB_MAIL_DEFAULT_FROM` | The default email address to use as the sender.                       | N/A                     | `hi@undb.io`                                      |
+| `UNDB_MAILGUN_API_KEY`   | The API key for Mailgun (if using `mailgun`).                         | N/A                     | `your-mailgun-api-key`                            |
+| `UNDB_MAILGUN_DOMAIN`    | The Mailgun domain used for sending emails.                           | N/A                     | `mg.undb.io`                                      |
+
+> **Note:** If `UNDB_MAIL_PROVIDER` is set to `nodemailer`, **undb** will use SMTP for sending emails. If set to `mailgun`, you need to configure `UNDB_MAILGUN_API_KEY` and `UNDB_MAILGUN_DOMAIN`.
 
 ## Authentication Providers
 
