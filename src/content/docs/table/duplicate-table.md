@@ -4,30 +4,36 @@ sidebar:
   order: 3
 ---
 
-In **undb**, duplicating a table allows you to create an exact copy of an existing table, including all of its data and relationships. This feature is particularly useful when you need to replicate a table's structure and content for testing, backup, or creating variations of the data.
+In **undb**, duplicating a table allows you to create a copy of an existing table, with options to customize the duplication process. This feature is particularly useful for creating backups, testing, or developing variations of your data structure.
 
 ## Steps to Duplicate a Table
 
 ### 1. Access the Table
 
-- **Navigate to the Table**: First, navigate to the table you want to duplicate. Ensure that the table contains the data and structure you wish to replicate.
+- **Navigate to the Table**: Go to the table you wish to duplicate. Make sure the table contains the structure and data you want to replicate.
 
-### 2. Duplicate the Table
+### 2. Initiate the Duplication
 
-- **Duplicate Option**: Locate the option to duplicate the table, typically found in the table's settings or context menu. Click on this option to begin the duplication process.
+- **Duplicate Option**: Find the option to duplicate the table, usually available in the table's settings or context menu. Click on this option to start the duplication process.
 
-- **Confirm Duplication**: You may be prompted to confirm that you want to duplicate the table. Confirming this action will create a new table with the same structure and data as the original.
+### 3. Configure the Duplication
 
-### 3. Data and Structure Replication
+- **Input New Name**: You will be prompted to enter a new name for the duplicated table. This allows you to easily identify the new table in your workspace.
 
-- **Data Copying**: All records from the original table will be copied to the new table. This includes all fields, values, and configurations.
+- **Import Data**: You can choose whether to import the data from the original table into the new table. If you select this option, all records from the original table will be copied to the new table.
+
+- **System Fields Update**: During the duplication, system fields such as `createdBy`, `createdAt`, `updatedBy`, and `updatedAt` will be automatically updated. The `createdBy` and `updatedBy` fields will reflect the user performing the duplication, and `createdAt` and `updatedAt` will be set to the current time.
+
+### 4. Data and Structure Replication
+
+- **Data Copying**: If you chose to import data, all records from the original table will be included in the new table. This includes all fields, values, and configurations.
 
 - **Reference Fields**: If the original table contains reference fields (columns that link to other tables), a new column will be created in the related table to maintain the relationship. This ensures that the data integrity and relationships are preserved in the duplicated table.
 
-### 4. Review the Duplicated Table
+### 5. Review the Duplicated Table
 
-- **New Table**: Once the duplication process is complete, a new table will appear in your workspace with all the data and relationships intact. You can rename this table and modify it as needed, while the original table remains unchanged.
+- **New Table**: After the duplication process is complete, the new table will appear in your workspace with the specified name. You can then proceed to modify or use this table as needed.
 
 ## Summary
 
-Duplicating a table in **undb** is a powerful way to create exact copies of your data and structure. This feature not only replicates all the records but also ensures that relationships between tables are maintained by creating new columns in related tables. Whether for testing, backups, or data manipulation, table duplication provides a flexible tool for managing your data.
+Duplicating a table in **undb** provides a flexible way to replicate your data and structure, with options to rename the table and decide whether to import existing data. System fields are automatically updated to reflect the new table’s creation, ensuring accuracy in tracking data history. This feature is particularly useful for managing complex data operations and creating backups.
