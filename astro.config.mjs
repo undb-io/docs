@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config'
 import starlight from '@astrojs/starlight'
+import starlightOpenAPI, { openAPISidebarGroups } from 'starlight-openapi'
 
 import tailwind from '@astrojs/tailwind'
 
@@ -77,6 +78,7 @@ export default defineConfig({
             directory: 'developer',
           },
         },
+        ...openAPISidebarGroups,
         {
           label: 'Webhook',
           autogenerate: {
@@ -89,6 +91,16 @@ export default defineConfig({
             directory: 'deployment',
           },
         },
+      ],
+      plugins: [
+        // Generate the OpenAPI documentation pages.
+        starlightOpenAPI([
+          {
+            base: '/api',
+            label: 'Undb OpenAPI',
+            schema: './schemas/undb.json',
+          },
+        ]),
       ],
     }),
     tailwind({

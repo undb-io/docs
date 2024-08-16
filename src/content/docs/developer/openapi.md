@@ -6,7 +6,21 @@ sidebar:
 
 In **undb**, the **OpenAPI** feature provides a detailed specification for interacting with your tables programmatically. This allows developers to seamlessly integrate **undb** tables with external applications and services using standard RESTful APIs.
 
-## Accessing OpenAPI
+## Accessing the OpenAPI Documentation
+
+### 1. General API Documentation
+
+- **URL**: To access the general API documentation, navigate to `app.undb.io/openapi`. This documentation provides the necessary details to perform various operations on records within your tables.
+
+- **Base and Table Names**: The API primarily requires you to know the `base name` and `table name` to perform operations. With these two pieces of information, you can execute various actions such as creating, reading, updating, and deleting records within the specified table.
+
+### 2. Differences from Table-Specific OpenAPI
+
+- **General vs. Table-Specific**: The documentation at `app.undb.io/openapi` is more general and does not include the schema-specific type definitions that are available in the table-specific OpenAPI documentation.
+
+- **Developer Tab OpenAPI**: Within each table in **undb**, there is a **Developer** tab that provides a more detailed OpenAPI documentation specific to that table. This documentation includes schema definitions, detailing the types and constraints of each field in the table, making it easier to understand the exact structure and requirements when interacting with that table's data programmatically.
+
+## Accessing Table OpenAPI
 
 ### 1. Viewing the OpenAPI Specification
 
