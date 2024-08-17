@@ -37,6 +37,13 @@ export default defineConfig({
           },
         },
         {
+          label: 'Template',
+          badge: 'cloud',
+          autogenerate: {
+            directory: 'template',
+          },
+        },
+        {
           label: 'Table',
           autogenerate: {
             directory: 'table',

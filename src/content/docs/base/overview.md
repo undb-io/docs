@@ -12,6 +12,10 @@ In **undb**, a **Base** is a collection of tables that together form a structure
 
 - **No Duplicate Names**: Each Base within a Space must have a unique name. This helps in avoiding confusion and ensures that each Base can be easily identified and referenced within the Space.
 
+<div class="p-4 mb-4 text-sm text-yellow-800 rounded-lg bg-yellow-50 dark:bg-gray-800 dark:text-yellow-300" role="alert">
+  Base name should not contain special characters or spaces.
+</div>
+
 ### Base Homepage Overview
 
 When you open a Base, you are greeted with a homepage that provides all the tools you need to manage your tables:

@@ -10,6 +10,14 @@ In **undb**, a **Table** is the fundamental structure where your data is stored 
 
 ## Key Features of Tables
 
+### Unique Naming
+
+- **No Duplicate Names**: Each Table within a Base must have a unique name. This helps in avoiding confusion and ensures that each Table can be easily identified and referenced within the Base.
+
+<div class="p-4 mb-4 text-sm text-yellow-800 rounded-lg bg-yellow-50 dark:bg-gray-800 dark:text-yellow-300" role="alert">
+  Table name should not contain special characters or spaces.
+</div>
+
 ### Structure and Storage
 
 - **Fields Collection**: A Table is essentially a collection of fields, where each field represents a specific type of data, such as text, numbers, dates, or other data types.
