@@ -12,6 +12,10 @@ In **undb**, the **Reference** type field is a powerful feature that allows you 
 
 - **Linking Records**: The Reference field enables you to link records from one table to records in another table. For example, you can link an "Orders" table to a "Customers" table, allowing each order to be associated with a specific customer. This linkage is fundamental for relational data modeling and ensures that related data is easily accessible.
 
+<div class="p-4 mb-4 text-sm text-yellow-800 rounded-lg bg-yellow-50 dark:bg-gray-800 dark:text-yellow-300" role="alert">
+  Table now can only reference to tables that are in the same base.
+</div>
+
 ### 2. Multi-Select by Default
 
 - **Multiple Associations**: By default, the Reference field supports multi-select, meaning you can associate a single record with multiple records from the referenced table. For instance, a project record can be associated with multiple task records, or an order can be linked to multiple products.
