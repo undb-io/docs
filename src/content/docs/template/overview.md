@@ -4,25 +4,25 @@ sidebar:
   order: 1
 ---
 
-**undb** allows you to quickly set up your workspace by importing pre-built templates. These templates can be imported into your own space, giving you a ready-made structure for your data and projects.
+**undb** allows you to quickly set up your workspace by importing pre-built templates. These templates can be imported into your own space, providing a ready-made structure for your data and projects.
 
 ## Steps to Import a Template
 
 ### 1. Access the Template Library
 
-- **Template URL**: Go to [undb template](https://template.undb.io), where you can browse and select from a variety of pre-built templates available for import.
+- **Template URL**: Visit the [undb template library](https://template.undb.io) to browse and select from a variety of pre-built templates available for import.
 
 ### 2. Choose a Template
 
-- **Browse Templates**: Explore the available templates that best match your needs. Each template includes a predefined set of tables, fields, and, optionally, data.
+- **Browse Templates**: Explore the available templates that best match your needs. Each template includes a predefined set of tables, fields, and optionally, data.
 
-- **Select a Template**: Click on the template you wish to import. This will bring up options for customization before importing.
+- **Select a Template**: Click on the template you wish to import. This will open a window where you can customize the import options before proceeding.
 
 ### 3. Configure the Import
 
-- **Select Target Space**: Use the dropdown menu to choose the space within your **undb** account where the template should be imported. This allows you to organize your imported templates into the appropriate workspace.
+- **Select Target Space**: Use the dropdown menu to choose the space within your **undb** account where the template should be imported. This ensures that the template is organized into the appropriate workspace.
 
-- **Import Data Option**: You will have the option to decide whether to include the template’s data. If you choose to import the data, all records associated with the template will be added to your space along with the structure. If you prefer to start with a clean slate, you can opt to import just the structure without the data.
+- **Import Data Option**: Decide whether to include the template’s data during the import. If you choose to import the data, all records associated with the template will be added to your space along with the structure. However, please note that if you opt to copy the data, any user and attachment content within the template will be automatically deleted during the import process. If you prefer to start with a clean slate, you can choose to import just the structure without the data.
 
 ### 4. Import the Template
 
