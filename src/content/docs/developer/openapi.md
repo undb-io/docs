@@ -8,6 +8,10 @@ In **undb**, the **OpenAPI** feature provides a detailed specification for inter
 
 ## Accessing the OpenAPI Documentation
 
+<img src="/imgs/openapi.png" alt="OpenAPI" />
+
+<hr />
+
 ### 1. General API Documentation
 
 - **URL**: To access the general API documentation, navigate to `app.undb.io/openapi`. This documentation provides the necessary details to perform various operations on records within your tables.
@@ -18,7 +22,15 @@ In **undb**, the **OpenAPI** feature provides a detailed specification for inter
 
 - **General vs. Table-Specific**: The documentation at `app.undb.io/openapi` is more general and does not include the schema-specific type definitions that are available in the table-specific OpenAPI documentation.
 
+<img src="/imgs/openapi-general.png" alt="OpenAPI" />
+
+<hr />
+
 - **Developer Tab OpenAPI**: Within each table in **undb**, there is a **Developer** tab that provides a more detailed OpenAPI documentation specific to that table. This documentation includes schema definitions, detailing the types and constraints of each field in the table, making it easier to understand the exact structure and requirements when interacting with that table's data programmatically.
+
+<img src="/imgs/openapi-table.png" alt="OpenAPI" />
+
+<hr />
 
 ## Accessing Table OpenAPI
 
