@@ -43,6 +43,18 @@ In **undb**, the **OpenAPI** feature provides a detailed specification for inter
 
 - **Schema-Based Paths**: The OpenAPI specification is automatically generated based on the schema of the table. This includes paths for creating, reading, updating, and deleting records, as well as batch operations and subscription endpoints.
 
+### 3. View-Specific Endpoints
+
+- **Filter and Sort by Views**: In addition to general CRUD operations, the OpenAPI now supports view-specific endpoints. These endpoints allow you to fetch records that have been filtered and sorted according to the specific settings of a view. This means you can retrieve data exactly as it appears in the user-defined views in the **undb** interface.
+
+- **View Endpoints Example**: If you have two views with different filters and sorts applied, the API will generate distinct endpoints for each view. You can access these records using endpoints like `/bases/{baseName}/tables/{tableName}/views/{viewName}/records`, ensuring that the data returned matches what you see in the UI.
+
+  ```bash
+  GET /bases/{baseName}/tables/{tableName}/views/{viewName}/records
+  ```
+
+  This will return records from the specified view, adhering to the filter and sort configurations set within that view.
+
 ## Key Features of OpenAPI
 
 ### 1. CRUD Operations
@@ -75,4 +87,6 @@ In **undb**, the **OpenAPI** feature provides a detailed specification for inter
 
 ## Summary
 
-The **OpenAPI** feature in **undb** provides a comprehensive and automatically generated API specification that allows developers to interact with table data programmatically. With support for CRUD operations, batch processing, and real-time subscriptions, the OpenAPI is a powerful tool for integrating **undb** with external applications and automating workflows.
+The **OpenAPI** feature in **undb** provides a comprehensive and automatically generated API specification that allows developers to interact with table data programmatically. With support for CRUD operations, batch processing, real-time subscriptions, and view-specific endpoints, the OpenAPI is a powerful tool for integrating **undb** with external applications and automating workflows.
+
+---
