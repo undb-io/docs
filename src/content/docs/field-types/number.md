@@ -1,7 +1,7 @@
 ---
 title: Number
 sidebar:
-  order: 2
+  order: 3
 ---
 
 In **undb**, the **Number** type field is used to store numerical data. This field type is versatile, allowing you to handle both integers and decimal numbers, with additional constraints to ensure the data fits your specific needs.

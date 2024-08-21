@@ -1,7 +1,7 @@
 ---
 title: Checkbox
 sidebar:
-  order: 8
+  order: 9
 ---
 
 In **undb**, the **Checkbox** type field is a simple and intuitive way to capture binary data—typically representing true/false, yes/no, or on/off values. This field type is ideal for scenarios where a straightforward selection or indication is needed.

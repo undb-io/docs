@@ -1,7 +1,7 @@
 ---
 title: Select
 sidebar:
-  order: 5
+  order: 6
 ---
 
 In **undb**, the **Select** type field is used to provide predefined options for a field, allowing users to choose from a list of values. This field type is highly customizable, supporting both single-select and multi-select configurations.

@@ -1,7 +1,7 @@
 ---
 title: JSON
 sidebar:
-  order: 10
+  order: 11
 ---
 
 In **undb**, the **JSON** type field is designed to store structured data in the form of JSON (JavaScript Object Notation). This field type is ideal for scenarios where you need to store complex data structures, such as objects or arrays, directly within your records.

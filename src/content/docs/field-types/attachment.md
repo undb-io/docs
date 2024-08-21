@@ -1,7 +1,7 @@
 ---
 title: Attachment
 sidebar:
-  order: 9
+  order: 10
 ---
 
 In **undb**, the **Attachment** type field is designed to store file attachments. This field type is ideal for scenarios where you need to associate files, documents, images, or other media with your records. Notably, the Attachment field in **undb** only supports multi-value configurations, allowing you to attach multiple files to a single record.

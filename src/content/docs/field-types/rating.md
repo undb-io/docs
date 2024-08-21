@@ -1,7 +1,7 @@
 ---
 title: Rating
 sidebar:
-  order: 6
+  order: 7
 ---
 
 In **undb**, the **Rating** type field is designed to capture ratings or scores, typically on a fixed scale (such as 1 to 5 stars). This field type is useful for scenarios where you want to collect feedback, evaluate performance, or rank items based on a set scale.

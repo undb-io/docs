@@ -1,7 +1,7 @@
 ---
 title: Email
 sidebar:
-  order: 3
+  order: 4
 ---
 
 In **undb**, the **Email** type field is specifically designed to store email addresses. This field type ensures that the data entered conforms to the standard format of an email address, which is crucial for communication-related data.

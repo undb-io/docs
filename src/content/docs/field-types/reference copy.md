@@ -1,7 +1,7 @@
 ---
 title: Rollup
 sidebar:
-  order: 13
+  order: 14
 ---
 
 # Rollup Type Field
