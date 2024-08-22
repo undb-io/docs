@@ -16,11 +16,15 @@ In **undb**, a Space is the core organizational unit for your data and projects.
 
   1. **Navigate to the Space Button**: Locate the **Space** button in the top left corner of your dashboard. This button is your gateway to managing and creating Spaces.
 
+  <img src="/imgs/space/create-space-1.png" alt="create-space-1" />
+
   2. **Create a New Space**: Click the **Space** button, and you'll see an option to create a new Space. Select this option to open the Space creation dialog.
 
   3. **Name Your Space**: Enter a name for your new Space. Choose a name that reflects the purpose or project this Space will be used for.
 
   4. **Confirm Creation**: Once you've named your Space, confirm the creation. Your new Space will appear in your dashboard, and you can start organizing your data within it.
+
+  <img src="/imgs/space/create-space-2.png" alt="create-space-2" />
 
 ## Space Ownership
 

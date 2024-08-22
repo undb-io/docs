@@ -10,6 +10,8 @@ Once you have created a Space in **undb**, you may need to manage it by updating
 
 ## Updating the Space Name
 
+<img src="/imgs/space/manage-space-1.png" alt="manage-space-1" />
+
 1. **Accessing the Settings Page**: To update the name of your Space, navigate to the Space’s settings page. You can do this by selecting the Space you wish to manage and then clicking on the **Settings** option.
 
 2. **Renaming the Space**: On the settings page, you will find an option to change the name of the Space. Enter the new name that reflects the current purpose or project associated with the Space.
@@ -19,6 +21,8 @@ Once you have created a Space in **undb**, you may need to manage it by updating
 ## Deleting a Space
 
 If you no longer need a Space, you can delete it, but this action is only available to the Space’s owner.
+
+<img src="/imgs/space/delete-space.png" alt="delete-space-1" />
 
 1. **Accessing the Delete Option**: To delete a Space, go to the Space’s settings page. As the owner, you will see a **Delete Space** option at the bottom of the settings menu.
 
