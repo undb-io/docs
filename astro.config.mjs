@@ -37,6 +37,12 @@ export default defineConfig({
           },
         },
         {
+          label: 'Share',
+          autogenerate: {
+            directory: 'share',
+          },
+        },
+        {
           label: 'Template',
           badge: 'cloud',
           autogenerate: {
