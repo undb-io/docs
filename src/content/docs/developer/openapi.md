@@ -69,13 +69,17 @@ In **undb**, the **OpenAPI** feature provides a detailed specification for inter
 
 - **Real-Time Updates**: The OpenAPI includes subscription endpoints that allow you to subscribe to changes in the table. This is useful for applications that need to stay up-to-date with the latest data changes without polling the API repeatedly.
 
-### 4. Schema-Driven API
+### 4. Button Field
+
+- **Trigger Button Action**: The OpenAPI includes endpoints for triggering button actions. This allows you to programmatically trigger the button's action.
+
+### 5. Schema-Driven API
 
 - **Dynamic Schema Mapping**: The paths, parameters, and results in the OpenAPI are dynamically generated based on the table's schema:
   - **Field Representation**: If your table includes a `title` field of type `string`, the OpenAPI will include `title` as part of the response schema for GET requests.
   - **User Select Fields**: For fields that use IDs, such as user select fields, the API response will include `displayValues` to represent the actual values in a human-readable format.
 
-### 5. Customization and Flexibility
+### 6. Customization and Flexibility
 
 - **Endpoint Flexibility**: The OpenAPI specification in **undb** is flexible, allowing developers to tailor their requests to match the specific needs of their applications. This flexibility ensures that the API can be easily integrated into various external systems.
 
