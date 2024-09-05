@@ -1,12 +1,12 @@
 ---
-title: Button Field
+title: Button
 sidebar:
-	order: 1
+  order: 10.1
 ---
 
-### Button Field
-
 The `button` field type in 'undb' provides a way to trigger updates to multiple other fields with a single click. It is a versatile field that can be configured with various options to suit your needs.
+
+<img src="/imgs/field/button/button-field.gif" alt="button field type" />
 
 #### Key Features:
 
