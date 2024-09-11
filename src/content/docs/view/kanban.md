@@ -5,11 +5,11 @@ sidebar:
   order: 9
 ---
 
-## Undb Kanban View Documentation
-
 ### Introduction
 
 The Kanban view in the `undb` platform provides an intuitive way to visualize records in a table by organizing them into columns based on a `select` field. Each option in the `select` field represents a different column in the Kanban view, making it ideal for managing workflows.
+
+<img src="/imgs/view/kanban/kanban.jpeg" alt="Kanban View" />
 
 ### Configuration Steps
 
