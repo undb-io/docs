@@ -16,6 +16,16 @@ sidebar:
 | ----------- | ------------------------------- | -------------------------------- | ------------- |
 | `LOG_LEVEL` | Controls the verbosity of logs. | `debug`, `info`, `warn`, `error` | `debug`       |
 
+**Authentication configuration** controls user registration and admin account settings.
+
+| Variable                    | Description                              | Possible Values | Example Value       |
+| --------------------------- | ---------------------------------------- | --------------- | ------------------- |
+| `UNDB_DISABLE_REGISTRATION` | Whether to disable new user registration | `true`, `false` | `false`             |
+| `UNDB_ADMIN_EMAIL`          | Email address for the admin account      | N/A             | `admin@example.com` |
+| `UNDB_ADMIN_PASSWORD`       | Password for the admin account           | N/A             | `securePassword123` |
+
+> **Note:** Setting `UNDB_DISABLE_REGISTRATION` to `true` will prevent new users from self-registering. This is useful when you want to restrict access or manage user accounts manually. `UNDB_ADMIN_EMAIL` and `UNDB_ADMIN_PASSWORD` are used to set up the initial admin account, ensuring there's an admin login available on first deployment.
+
 ## Database Configuration
 
 **Database configuration** sets up the database connection for **undb**.
