@@ -10,7 +10,7 @@ sidebar:
 
 ### 1. Access the Template Library
 
-- **Template URL**: Visit the [undb template library](https://template.undb.io) to browse and select from a variety of pre-built templates available for import.
+- **Template URL**: Visit the [undb template library](https://undb.io/templates) to browse and select from a variety of pre-built templates available for import.
 
 ### 2. Choose a Template
 
