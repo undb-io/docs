@@ -10,9 +10,13 @@ sidebar:
 
 ### 1. Access the Template Library
 
-- **Template URL**: Visit the [undb template library](https://undb.io/templates) to browse and select from a variety of pre-built templates available for import.
+<img src="/imgs/template/template-library.png" alt="undb template library" />
+
+- **Template URL**: Or you can visit the [undb template library](https://undb.io/templates) to browse and select from a variety of pre-built templates available for import.
 
 ### 2. Choose a Template
+
+<img src="/imgs/template/browse-templates.png" alt="undb template list" />
 
 - **Browse Templates**: Explore the available templates that best match your needs. Each template includes a predefined set of tables, fields, and optionally, data.
 

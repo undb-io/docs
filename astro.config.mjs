@@ -44,7 +44,6 @@ export default defineConfig({
         },
         {
           label: 'Template',
-          badge: 'cloud',
           autogenerate: {
             directory: 'template',
           },
