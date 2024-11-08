@@ -132,6 +132,57 @@ UnDB Formula is a powerful formula system that allows you to create dynamic calc
 - Return Type: number
 - Example: `AVERAGE(1, 2, 3)` returns 2
 
+### Date Functions
+
+#### YEAR
+- Description: Returns the year of a date
+- Syntax: `YEAR(date)`
+- Parameters: One date value
+- Return Type: number
+- Example: `YEAR('2024-01-01')` returns 2024
+
+#### MONTH
+- Description: Returns the month of a date
+- Syntax: `MONTH(date)`
+- Parameters: One date value
+- Return Type: number
+- Example: `MONTH('2024-01-01')` returns 1
+
+#### DAY
+- Description: Returns the day of a date
+- Syntax: `DAY(date)`
+- Parameters: One date value
+- Return Type: number
+- Example: `DAY('2024-01-01')` returns 1
+
+#### HOUR
+- Description: Returns the hour of a date
+- Syntax: `HOUR(date)`
+- Parameters: One date value
+- Return Type: number
+- Example: `HOUR('2024-01-01 01:00:00')` returns 1
+
+#### MINUTE
+- Description: Returns the minute of a date
+- Syntax: `MINUTE(date)`
+- Parameters: One date value
+- Return Type: number
+- Example: `MINUTE('2024-01-01 01:00:00')` returns 0
+
+#### SECOND
+- Description: Returns the second of a date
+- Syntax: `SECOND(date)`
+- Parameters: One date value
+- Return Type: number
+- Example: `SECOND('2024-01-01 01:00:00')` returns 0
+
+#### WEEKDAY
+- Description: Returns the weekday of a date (1 = Sunday, 2 = Monday, etc.)
+- Syntax: `WEEKDAY(date)`
+- Parameters: One date value
+- Return Type: number
+- Example: `WEEKDAY('2024-01-01')` returns 2
+
 ### Text Functions
 
 #### CONCAT
