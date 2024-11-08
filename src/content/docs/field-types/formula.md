@@ -183,6 +183,45 @@ UnDB Formula is a powerful formula system that allows you to create dynamic calc
 - Return Type: number
 - Example: `WEEKDAY('2024-01-01')` returns 2
 
+#### DATE_ADD
+- Description: Adds a number of units to a date
+- Syntax: `DATE_ADD(date, number, unit)`
+- Parameters:
+  - date: The starting date
+  - number: Amount to add
+  - unit: Unit of time ('day', 'month', 'year', 'hour', 'minute', 'second')
+- Return Type: date
+- Examples:
+  - `DATE_ADD('2024-01-01', 1, 'day')` returns "2024-01-02"
+  - `DATE_ADD('2024-01-01', 1, 'month')` returns "2024-02-01"
+  - `DATE_ADD('2024-01-01', 1, 'hour')` returns "2024-01-01 01:00:00"
+
+#### DATE_SUBTRACT
+- Description: Subtracts a number of units from a date
+- Syntax: `DATE_SUBTRACT(date, number, unit)`
+- Parameters:
+  - date: The starting date
+  - number: Amount to subtract
+  - unit: Unit of time ('day', 'month', 'year', 'hour', 'minute', 'second')
+- Return Type: date
+- Examples:
+  - `DATE_SUBTRACT('2024-01-01', 1, 'day')` returns "2023-12-31"
+  - `DATE_SUBTRACT('2024-01-01', 1, 'month')` returns "2023-12-01"
+  - `DATE_SUBTRACT('2024-01-01', 1, 'hour')` returns "2023-12-31 23:00:00"
+
+#### DATE_DIFF
+- Description: Returns the difference between two dates in the specified unit
+- Syntax: `DATE_DIFF(date1, date2, unit)`
+- Parameters:
+  - date1: First date
+  - date2: Second date
+  - unit: Unit of time ('day', 'month', 'year')
+- Return Type: number
+- Examples:
+  - `DATE_DIFF('2024-01-01', '2024-01-02', 'day')` returns 1
+  - `DATE_DIFF('2024-01-01', '2024-01-02', 'month')` returns 0
+  - `DATE_DIFF('2024-01-01', '2024-01-02', 'year')` returns 0
+
 ### Text Functions
 
 #### CONCAT
