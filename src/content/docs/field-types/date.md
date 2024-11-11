@@ -26,9 +26,25 @@ Date fields in **undb** can include several constraints to ensure the accuracy a
 
 ### 4. Default Value
 
-- **Setting a Default Date**: You can define a default date for the field, such as the current date, a specific fixed date, or no date at all. This default value will populate the field when a new record is created unless a different date is specified.
+- **Setting a Default Date**: You can define a default date for the field using either:
+  - A specific fixed date
+  - Date macros (e.g., `@now` for current date/time)
+  - No default value
 
-### 5. Use Cases
+### 5. Date Macros
+
+<img src="/imgs/field/date/date-macros.png" alt="date macros" />
+
+The Date field supports several built-in macros for dynamic date values:
+
+- **@now**: Sets the field to the current date and time
+- **@today**: Sets the field to the current date (start of day)
+- **@tomorrow**: Sets the field to tomorrow's date
+- **@yesterday**: Sets the field to yesterday's date
+
+These macros are particularly useful when setting default values or creating new records that need to reference the current time or relative dates.
+
+### 6. Use Cases
 
 - **Event Scheduling**: Use the Date field to track when events are scheduled to occur, such as meetings, appointments, or project milestones.
 - **Historical Records**: Store creation dates, modification dates, or any other significant historical data points.

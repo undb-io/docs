@@ -24,7 +24,16 @@ In **undb**, the **User** type field is designed to associate records with users
 - **Default User**: You can specify a default user or users that will be automatically selected when a new record is created. This is useful for fields where a specific user or group is commonly associated with new records.
 - **Maximum and Minimum Selections**: When using the multi-select configuration, you can set constraints on the minimum and maximum number of users that can be selected.
 
-### 4. Use Cases
+### 4. Macro Support
+
+<img src="/imgs/field/user/user-macros.png" alt="user macros" />
+
+- **@me Macro**: The User field supports the special `@me` macro, which automatically references the currently logged-in user. This is particularly useful for:
+  - Creating filters that show records assigned to the current user
+  - Setting default values to automatically assign new records to the current user
+  - Simplifying user selection in forms and views
+
+### 5. Use Cases
 
 - **Task Assignment**: Use the User field to assign tasks or responsibilities to individual users.
 - **Team Collaboration**: Link multiple users to a project or record to indicate team involvement or shared responsibility.
