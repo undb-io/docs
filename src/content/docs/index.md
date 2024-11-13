@@ -16,8 +16,6 @@ Welcome to **undb**, the next-generation no-code platform built on SQLite, desig
 **undb** is engineered to meet the needs of modern developers and businesses by offering:
 
 - **Developer-Friendly Environment**: Create type-safe APIs directly from your database tables, ensuring your applications are robust and maintainable.
-- **Local-First Architecture**: Keep your data local, with quick access and complete control, reducing reliance on external servers.
-- **Offline-First Capability**: Your applications work seamlessly offline, providing a consistent user experience regardless of network availability.
 - **Privacy-First Mindset**: Data privacy is at the forefront, whether you're deploying privately or using our cloud service.
 - **Flexible Deployment Options**: Deploy **undb** on your own infrastructure for maximum control, or use our cloud services for added convenience.
 - **Binary Packaging**: Easily package your applications into binary files, making distribution straightforward and deployment hassle-free.
