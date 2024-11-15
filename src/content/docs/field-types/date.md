@@ -15,6 +15,7 @@ In **undb**, the **Date** type field is designed to store and manage date-relate
 ### 2. Display Format
 
 - **Customizable Formats**: Dates can be displayed in various formats (e.g., YYYY-MM-DD, MM/DD/YYYY, DD/MM/YYYY) depending on your preferences or regional standards. This ensures that the data is presented in a way that is most intuitive for your users.
+- **Time Inclusion Option**: You can choose whether to include time along with the date. When time is included, a time picker will be available for precise time selection.
 
 ### 3. Constraints
 

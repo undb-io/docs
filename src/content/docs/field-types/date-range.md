@@ -21,10 +21,33 @@ To create a Date Range Field within a table:
 
 ## 2. Configuring Date Range Format
 
-After creating the Date Range Field, you can adjust its format and display options to meet your needs:
+The Date Range field supports various format options to meet different needs:
 
-1. In the settings panel for the Date Range Field, select your preferred date format (e.g., YYYY-MM-DD, MM/DD/YYYY, etc.)
-2. Choose whether to display timestamps to increase precision, which is useful if you need to specify hours and minutes in addition to dates
+### Date Format Options
+
+
+- **YYYY-MM-DD**: 2024-03-21
+- **MM/DD/YYYY**: 03/21/2024
+- **DD/MM/YYYY**: 21/03/2024
+
+### Time Options
+
+- Option to include or exclude time information
+- When time is enabled, precision down to hours and minutes
+- Support for both 24-hour and 12-hour time formats
+
+### Date Macros
+
+The Date Range field supports the following built-in macros for dynamic date values:
+
+<img src="/imgs/field/date/date-macros.png" alt="date macros" />
+
+- **@now**: Sets the field to the current date and time
+- **@today**: Sets the field to the current date (start of day)
+- **@tomorrow**: Sets the field to tomorrow's date
+- **@yesterday**: Sets the field to yesterday's date
+
+These macros are particularly useful when setting default values or needing to reference current time or relative dates.
 
 ## 3. Using the Date Range Field
 
