@@ -14,7 +14,18 @@ In **undb**, the **View Sort** feature allows you to organize data within a view
 
 ### 2. Handling Non-Sortable Fields
 
-- **Non-Sortable Fields**: It’s important to note that not all fields in **undb** are sortable. Some fields, due to their data type or the way they are configured, cannot be used as the basis for sorting. For instance, complex data types like JSON or certain multi-select fields may not support sorting.
+- **Non-Sortable Fields**: It's important to note that not all fields in **undb** are sortable. Some fields, due to their data type or the way they are configured, cannot be used as the basis for sorting. For instance, complex data types like JSON or certain multi-select fields may not support sorting.
+
+- **Sortable Field Types**: The following field types support sorting:
+  - Basic Types: String, ID, Email, URL
+  - Numeric Types: AutoIncrement, Currency, Rating, Percentage
+  - Date Types: Date, DateRange, CreatedAt, UpdatedAt
+  - Other Types: Checkbox, Select, Duration
+  - Computed Types: Formula, Rollup
+
+- **Sort Rules**:
+  - Each field can only be used once in the sort configuration
+  - Multiple fields can be sorted in sequence to create a hierarchical sort
 
 ### 3. Use Cases
 
@@ -28,4 +39,4 @@ In **undb**, the **View Sort** feature allows you to organize data within a view
 
 ## Summary
 
-The **View Sort** feature in **undb** provides a simple yet powerful way to organize data within your views by sorting rows based on field values. While most fields support sorting, it’s important to be aware that some fields are non-sortable due to their nature.
+The **View Sort** feature in **undb** provides a simple yet powerful way to organize data within your views by sorting rows based on field values. While most fields support sorting, it's important to be aware that some fields are non-sortable due to their nature.
