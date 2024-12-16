@@ -25,6 +25,10 @@ export default defineConfig({
           slug: 'index',
         },
         {
+          label: 'Playground',
+          slug: 'playground',
+        },
+        {
           label: 'Space',
           autogenerate: {
             directory: 'space',
