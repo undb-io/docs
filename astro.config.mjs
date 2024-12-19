@@ -89,6 +89,12 @@ export default defineConfig({
           },
         },
         {
+          label: 'Authorization',
+          autogenerate: {
+            directory: 'authorization',
+          },
+        },
+        {
           label: 'Developer',
           autogenerate: {
             directory: 'developer',
