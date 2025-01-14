@@ -32,9 +32,16 @@ sidebar:
 
 | Variable                   | Description                                                  | Possible Values   | Example Value                   |
 | -------------------------- | ------------------------------------------------------------ | ----------------- | ------------------------------- |
-| `UNDB_DB_PROVIDER`         | Specifies the database provider being used.                  | `sqlite`, `turso` | `turso`                         |
+| `UNDB_DB_PROVIDER`         | Specifies the database provider being used.                  | `sqlite`, `turso`, `postgres` | `turso`                         |
 | `UNDB_DB_TURSO_URL`        | The URL for the Turso database connection, if using `turso`. | N/A               | `libsql://127.0.0.1:8080?tls=0` |
 | `UNDB_DB_TURSO_AUTH_TOKEN` | The authentication token for accessing the Turso database.   | N/A               | `your-auth-token`               |
+
+**Postgres Configuration** sets up the Postgres database connection for **undb**.
+
+| Variable                   | Description                                                  | Possible Values   | Example Value                   |
+| -------------------------- | ------------------------------------------------------------ | ----------------- | ------------------------------- |
+| `UNDB_DB_PROVIDER`         | Specifies the database provider being used.                  | `postgres` | `postgres`                         |
+| `UNDB_DB_POSTGRES_URL`    | The URL for the Postgres database connection.                | N/A               | `postgres://localhost:5432/undb` |
 
 > **Note:** If `UNDB_DB_PROVIDER` is set to `sqlite`, **undb** will use a local SQLite database. If set to `turso`, **undb** will connect to a database hosted on [Turso](https://turso.tech/).
 
